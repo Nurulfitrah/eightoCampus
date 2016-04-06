@@ -1,3 +1,10 @@
+<%-- 
+    Document   : guardian
+    Created on : Apr 6, 2016, 2:38:05 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -52,14 +59,8 @@ Licence URI: http://www.os-templates.com/template-terms
             <div class="rounded">
                 <main class="container clear" > 
                     <!-- main body --> 
-
+                    <!-- ################################################################################################ -->
                     <h1><span style="margin-left: 500px">Current User: NURULFITRAH BINTI NOORHALIM<a href="#"> Logout</a></span></h1>
-
-                    <p><strong>REGISTRATION SLIP</strong></p>
-                    Please select the semester session: <select name="session"> 
-                        <option value="sem1">201520162</option>
-                    </select>
-                    <br>
                     <img class="imgl borderedbox" src="../images/demo/120x120.gif" alt=""><br><br>
                     <p><strong>NAME:</strong><span style="font-style: underline"> NURULFITRAH BINTI NOORHALIM</span></p><br>
 
@@ -73,79 +74,99 @@ Licence URI: http://www.os-templates.com/template-terms
                 <main class="container clear" > 
                     <div class="scrollable">
                             <table>
-                                <tbody>
+                                <thead>
                                     <tr>
-                                        <td align='center' colspan="6"><strong>Session Sem</strong></td>
+                                        <th colspan="4">GUARDIAN'S DETAILS</th>
                                     </tr>
-                                    <tr class>
-                                        <td><strong>Faculty</strong></td>
-                                        <td>:</td>
-                                        <td>FACULTY OF COMPUTING</td>
-                                        <td><strong>Session / Semester</strong></td>
-                                        <td>:</td>
-                                        <td>201420151</td>
-                                    </tr>
+                                </thead>
+                                <tbody>
                                     <tr>
                                         <td><strong>Name</strong></td>
-                                        <td>:</td>
-                                        <td>NURULFITRAH BINTI NOORHALIM</td>
-                                        <td><strong>Year / Course</strong></td>
-                                        <td>:</td>
-                                        <td>3 SCSD</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Identification Card</strong></td>
-                                        <td>:</td>
-                                        <td>930228015948</td>
-                                        <td><strong>Matric ID</strong></td>
-                                        <td>:</td>
-                                        <td>A12CS0064</td>
-                                    </tr> 
-                                    <tr>
-                                        <td><strong>Address</strong></td>
-                                        <td>:</td>
-                                        <td>G 4 KAMPUNG BARU AYER MANIS 81020 KULAI JOHOR</td>
+                                        <td>NOORHALIM BIN SARWADI</td>
                                         <td><strong></strong></td>
                                         <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Occupation</strong></td>
+                                        <td></td>
+                                        <td><strong>Salary</strong></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Position</strong></td>
+                                        <td></td>
+                                        <td><strong>Dependent</strong></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Telephone</strong></td>
+                                        <td></td>
+                                        <td><strong></strong></td>
                                         <td></td>
                                     </tr>
                                 </tbody>
                             </table>
-                    </div> 
+                    </div>
                     <br>
                     <div class="scrollable">
                             <table>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">GUARDIAN'S ADDRESS</th>
+                                    </tr>
+                                </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>No</strong></td>
-                                        <td><strong>Code</strong></td>
-                                        <td><strong>Subject Title</strong></td>
-                                        <td><strong>Credit</strong></td>
-                                        <td><strong>Status</strong></td>
+                                        <td><strong>Address</strong></td>
+                                        <td>G 4 KAMPUNG BARU AYER MANIS</td>
                                     </tr>
                                     <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><strong>Poscode</strong></td>
+                                        <td>81020</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>City</strong></td>
+                                        <td>KULAI</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>State</strong></td>
+                                        <td>JOHOR</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Telephone</strong></td>
+                                        <td>0147730963</td>
                                     </tr>
                                 </tbody>
                             </table>
-                    </div> 
+                    </div>
                     <br>
                     <div class="scrollable">
                             <table>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">MOTHER'S DETAILS</th>
+                                    </tr>
+                                </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Total Registered Credit</strong></td>
-                                        <td>018</td>
-                                        <td><strong>Academic Advisor</strong></td>
-                                        <td>ROZILAWATI BINTI DOLLAH @ MD. ZAIN</td>
+                                        <td><strong>Name</strong></td>
+                                        <td>SAFIAH BINTI MD YANI</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Occupation</strong></td>
+                                        <td>HOUSEWIVE</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Position</strong></td>
+                                        <td>NO</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Salary</strong></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
-                    </div> 
+                    </div>
                 </main>
             </div>
         </div>

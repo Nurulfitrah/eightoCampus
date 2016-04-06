@@ -1,3 +1,10 @@
+<%-- 
+    Document   : results
+    Created on : Apr 6, 2016, 2:39:48 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -255,3 +262,4 @@ Licence URI: http://www.os-templates.com/template-terms
         <script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
     </body>
 </html>
+

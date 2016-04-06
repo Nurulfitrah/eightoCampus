@@ -1,3 +1,10 @@
+<%-- 
+    Document   : semester
+    Created on : Apr 6, 2016, 2:40:13 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -52,8 +59,14 @@ Licence URI: http://www.os-templates.com/template-terms
             <div class="rounded">
                 <main class="container clear" > 
                     <!-- main body --> 
-                    <!-- ################################################################################################ -->
+
                     <h1><span style="margin-left: 500px">Current User: NURULFITRAH BINTI NOORHALIM<a href="#"> Logout</a></span></h1>
+                    
+                    
+                    Please select the semester session: <select name="session"> 
+                        <option value="sem1">201520162</option>
+                    </select>
+                    <br>
                     <img class="imgl borderedbox" src="../images/demo/120x120.gif" alt=""><br><br>
                     <p><strong>NAME:</strong><span style="font-style: underline"> NURULFITRAH BINTI NOORHALIM</span></p><br>
 
@@ -69,104 +82,25 @@ Licence URI: http://www.os-templates.com/template-terms
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">SPM/SPMV INFORMATION</th>
+                                        <th colspan="2">SEMESTER RECORD - 201320142</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Figures Turn</strong></td>
-                                        <td>JJ021A031</td>
+                                        <td><strong>Session Sem</strong></td>
+                                        <td>201520162</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Course</strong></td>
-                                        <td>SAINS</td>
+                                        <td><strong>Date Register Subject</strong></td>
+                                        <td>11-FEB-2016</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Year</strong></td>
-                                        <td>2010</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Certificate</strong></td>
-                                        <td>SPM</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>School Type</strong></td>
-                                        <td>DAILY SCHOOL</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>School Name</strong></td>
-                                        <td>SMK KELAPA SAWIT</td>
-                                    </tr>
+                                        <td><strong>Final Decision</strong></td>
+                                        <td>NO</td>
+                                    </tr>                                    
                                 </tbody>
                             </table>
-                    </div>
-                    <br>
-                    <div class="scrollable">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th colspan="3">SPM/SPMV SUBJECT</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Subject Code</strong></td>
-                                        <td><strong>Subject Name</strong></td>
-                                        <td><strong>Grade</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td>0008</td>
-                                        <td>ENGLISH</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0010</td>
-                                        <td>BAHASA MELAYU</td>
-                                        <td>A+</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0016</td>
-                                        <td>BIOLOGY</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0020</td>
-                                        <td>PHYSIC</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0034</td>
-                                        <td>CHEMISTRY</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0046</td>
-                                        <td>MATHEMATICS</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0047</td>
-                                        <td>ADDITIONAL MATHEMATICS</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0055</td>
-                                        <td>PENDIDIKAN ISLAM</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0056</td>
-                                        <td>EDUCATIONAL ARTS</td>
-                                        <td>A</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0077</td>
-                                        <td>HISTORY</td>
-                                        <td>A</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>         
+                    </div>                               
                 </main>
             </div>
         </div>
@@ -186,3 +120,4 @@ Licence URI: http://www.os-templates.com/template-terms
         <script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
     </body>
 </html>
+

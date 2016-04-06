@@ -1,3 +1,10 @@
+<%-- 
+    Document   : advisor
+    Created on : Apr 6, 2016, 2:37:39 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -52,14 +59,8 @@ Licence URI: http://www.os-templates.com/template-terms
             <div class="rounded">
                 <main class="container clear" > 
                     <!-- main body --> 
-
+                    <!-- ################################################################################################ -->
                     <h1><span style="margin-left: 500px">Current User: NURULFITRAH BINTI NOORHALIM<a href="#"> Logout</a></span></h1>
-                    
-                    
-                    Please select the semester session: <select name="session"> 
-                        <option value="sem1">201520162</option>
-                    </select>
-                    <br>
                     <img class="imgl borderedbox" src="../images/demo/120x120.gif" alt=""><br><br>
                     <p><strong>NAME:</strong><span style="font-style: underline"> NURULFITRAH BINTI NOORHALIM</span></p><br>
 
@@ -75,21 +76,25 @@ Licence URI: http://www.os-templates.com/template-terms
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">SEMESTER RECORD - 201320142</th>
+                                        <th colspan="2">ACADEMY ADVISOR INFORMATION SESSION - 201320142</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Session Sem</strong></td>
-                                        <td>201520162</td>
+                                        <td><strong>Name</strong></td>
+                                        <td>ROZILAWATI BINTI DOLLAH @ MD. ZAIN</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Date Register Subject</strong></td>
-                                        <td>11-FEB-2016</td>
+                                        <td><strong>Faculty</strong></td>
+                                        <td>FACULTY OF COMPUTING</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Final Decision</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>Position</strong></td>
+                                        <td>LECTURER</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Email</strong></td>
+                                        <td>	rozilawati@utm.my</td>
                                     </tr>                                    
                                 </tbody>
                             </table>
@@ -113,3 +118,4 @@ Licence URI: http://www.os-templates.com/template-terms
         <script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
     </body>
 </html>
+

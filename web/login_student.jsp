@@ -1,3 +1,10 @@
+<%-- 
+    Document   : login_student
+    Created on : Apr 6, 2016, 2:31:19 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2

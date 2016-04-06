@@ -1,3 +1,10 @@
+<%-- 
+    Document   : personal-record
+    Created on : Apr 6, 2016, 2:38:40 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -29,8 +36,8 @@ Licence URI: http://www.os-templates.com/template-terms
                     <ul class="clear">
                         <li class="drop"><a href="#">Surveillance Records</a>
                             <ul>
-                                <li><a href="../student/personal-record.html">Personal Record</a></li>
-                                <li><a href="../student/address.html" class="active">Address</a></li>
+                                <li><a href="../student/personal-record.html" class="active">Personal Record</a></li>
+                                <li><a href="../student/address.html">Address</a></li>
                                 <li><a href="../student/guardian.html">Guardian</a></li>
                                 <li><a href="../student/spm.html">SPM</a></li>
                                 <li><a href="../student/advisor.html">Academic Advisor</a></li>
@@ -66,107 +73,123 @@ Licence URI: http://www.os-templates.com/template-terms
             <div class="rounded">
                 <main class="container clear" > 
                     <div class="scrollable">
-                        <div class="three_quarter">
+                        <div class="one_half first">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">SCHOOL ADDRESS</th>
+                                        <th colspan="2">BASIC</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Address</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>Identification Card</strong></td>
+                                        <td>930228015948</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Poscode</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>Races</strong></td>
+                                        <td>Malay</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>City</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>Sex</strong></td>
+                                        <td>Female</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>State</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>Religious</strong></td>
+                                        <td>Islam</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="scrollable">
+                        <div class="one_half">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">NATIONHOOD</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Nationality</strong></td>
+                                        <td>MALAYSIA</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Telephone</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>Country</strong></td>
+                                        <td>MALAYSIA</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Birth State</strong></td>
+                                        <td>JOHOR</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Current State</strong></td>
+                                        <td>JOHOR</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <br>
-                    <div class="scrollable">
-                        <div class="three_quarter">
+                   <div class="scrollable">
+                        <div class="one_half first">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">LETTER ADDRESS</th>
+                                        <th colspan="2">OTHERS</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Address</strong></td>
-                                        <td>G 4 KAMPUNG BARU AYER MANIS</td>
-                                    </tr>
+                                        <td><strong>Classification</strong></td>
+                                        <td>MATRICULATION</td>
+                                    </tr>                                 
                                     <tr>
-                                        <td><strong>Poscode</strong></td>
-                                        <td>81020</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>City</strong></td>
-                                        <td>KULAI</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>State</strong></td>
-                                        <td>JOHOR</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Telephone</strong></td>
+                                        <td><strong>Phone Number</strong></td>
                                         <td>0147730963</td>
+                                    </tr>                                    
+                                    <tr>
+                                        <td><strong>Email</strong></td>
+                                        <td>feat.nyap@gmail.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="scrollable">
+                        <div class="one_half">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th colspan="4">DATE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Birth Date</strong></td>
+                                        <td>28-FEB-1993</td>
+                                        <td><strong>Marriage Status</strong></td>
+                                        <td>SINGLE</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Date In</strong></td>
+                                        <td>2-SEP-2012</td>
+                                        <td><strong>Marriage Date</strong></td>
+                                        <td>NO</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong></strong></td>
+                                        <td></td>
+                                        <td><strong></strong></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <br>
-                    <div class="scrollable">
-                        <!--<div class="one_quarter"></div>-->
-                        <div class="three_quarter">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th colspan="2">FIX ADDRESS</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Address</strong></td>
-                                        <td>G 4 KAMPUNG BARU AYER MANIS</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Poscode</strong></td>
-                                        <td>81020</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>City</strong></td>
-                                        <td>KULAI</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>State</strong></td>
-                                        <td>JOHOR</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Telephone</strong></td>
-                                        <td>0147730963</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                    
+                    
                 </main>
             </div>
         </div>
@@ -186,3 +209,4 @@ Licence URI: http://www.os-templates.com/template-terms
         <script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
     </body>
 </html>
+

@@ -1,3 +1,10 @@
+<%-- 
+    Document   : address
+    Created on : Apr 6, 2016, 2:34:59 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -29,18 +36,18 @@ Licence URI: http://www.os-templates.com/template-terms
                     <ul class="clear">
                         <li class="drop"><a href="#">Surveillance Records</a>
                             <ul>
-                                <li><a href="../student/personal-record.html">Personal Record</a></li>
-                                <li><a href="../student/address.html">Address</a></li>
-                                <li><a href="../student/guardian.html" class="active">Guardian</a></li>
-                                <li><a href="../student/spm.html">SPM</a></li>
-                                <li><a href="../student/advisor.html">Academic Advisor</a></li>
-                                <li><a href="../student/semester.html">Semester</a></li>
+                                <li><a href="../student/personal-record.jsp">Personal Record</a></li>
+                                <li><a href="../student/address.jsp" class="active">Address</a></li>
+                                <li><a href="../student/guardian.jsp">Guardian</a></li>
+                                <li><a href="../student/spm.jsp">SPM</a></li>
+                                <li><a href="../student/advisor.jsp">Academic Advisor</a></li>
+                                <li><a href="../student/semester.jsp">Semester</a></li>
                             </ul>
                         </li>
                         <li><a class="drop" href="#">Examination</a>
                             <ul>
-                                <li><a href="../student/reg-slip.html">Registration Slip</a></li>
-                                <li><a href="../student/results.html">Examination Results</a></li>
+                                <li><a href="../student/reg-slip.jsp">Registration Slip</a></li>
+                                <li><a href="../student/results.jsp">Examination Results</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -55,7 +62,7 @@ Licence URI: http://www.os-templates.com/template-terms
                     <!-- ################################################################################################ -->
                     <h1><span style="margin-left: 500px">Current User: NURULFITRAH BINTI NOORHALIM<a href="#"> Logout</a></span></h1>
                     <img class="imgl borderedbox" src="../images/demo/120x120.gif" alt=""><br><br>
-                    <p><strong>NAME:</strong><span style="font-style: underline"> NURULFITRAH BINTI NOORHALIM</span></p><br>
+                    <p><strong>NAME:</strong> NURULFITRAH BINTI NOORHALIM</p><br>
 
                     <!-- / main body -->
                     <div class="clear"></div>
@@ -66,46 +73,42 @@ Licence URI: http://www.os-templates.com/template-terms
             <div class="rounded">
                 <main class="container clear" > 
                     <div class="scrollable">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th colspan="4">GUARDIAN'S DETAILS</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Name</strong></td>
-                                        <td>NOORHALIM BIN SARWADI</td>
-                                        <td><strong></strong></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Occupation</strong></td>
-                                        <td></td>
-                                        <td><strong>Salary</strong></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Position</strong></td>
-                                        <td></td>
-                                        <td><strong>Dependent</strong></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Telephone</strong></td>
-                                        <td></td>
-                                        <td><strong></strong></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">SCHOOL ADDRESS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Address</strong></td>
+                                    <td>NO</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Poscode</strong></td>
+                                    <td>NO</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>City</strong></td>
+                                    <td>NO</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>State</strong></td>
+                                    <td>NO</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Telephone</strong></td>
+                                    <td>NO</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <br>
                     <div class="scrollable">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">GUARDIAN'S ADDRESS</th>
+                                        <th colspan="2">LETTER ADDRESS</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -137,25 +140,29 @@ Licence URI: http://www.os-templates.com/template-terms
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">MOTHER'S DETAILS</th>
+                                        <th colspan="2">FIX ADDRESS</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Name</strong></td>
-                                        <td>SAFIAH BINTI MD YANI</td>
+                                        <td><strong>Address</strong></td>
+                                        <td>G 4 KAMPUNG BARU AYER MANIS</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Occupation</strong></td>
-                                        <td>HOUSEWIVE</td>
+                                        <td><strong>Poscode</strong></td>
+                                        <td>81020</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Position</strong></td>
-                                        <td>NO</td>
+                                        <td><strong>City</strong></td>
+                                        <td>KULAI</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Salary</strong></td>
-                                        <td></td>
+                                        <td><strong>State</strong></td>
+                                        <td>JOHOR</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Telephone</strong></td>
+                                        <td>0147730963</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -179,3 +186,4 @@ Licence URI: http://www.os-templates.com/template-terms
         <script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
     </body>
 </html>
+

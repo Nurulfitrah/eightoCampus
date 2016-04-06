@@ -1,3 +1,10 @@
+<%-- 
+    Document   : spm
+    Created on : Apr 6, 2016, 2:40:35 PM
+    Author     : FitrahHalim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
 Template Name: Academic Education V2
@@ -29,9 +36,9 @@ Licence URI: http://www.os-templates.com/template-terms
                     <ul class="clear">
                         <li class="drop"><a href="#">Surveillance Records</a>
                             <ul>
-                                <li><a href="../student/personal-record.html" class="active">Personal Record</a></li>
+                                <li><a href="../student/personal-record.html">Personal Record</a></li>
                                 <li><a href="../student/address.html">Address</a></li>
-                                <li><a href="../student/guardian.html">Guardian</a></li>
+                                <li><a href="../student/guardian.html" class="active">Guardian</a></li>
                                 <li><a href="../student/spm.html">SPM</a></li>
                                 <li><a href="../student/advisor.html">Academic Advisor</a></li>
                                 <li><a href="../student/semester.html">Semester</a></li>
@@ -55,7 +62,7 @@ Licence URI: http://www.os-templates.com/template-terms
                     <!-- ################################################################################################ -->
                     <h1><span style="margin-left: 500px">Current User: NURULFITRAH BINTI NOORHALIM<a href="#"> Logout</a></span></h1>
                     <img class="imgl borderedbox" src="../images/demo/120x120.gif" alt=""><br><br>
-                    <p><strong>NAME:</strong> NURULFITRAH BINTI NOORHALIM</p><br>
+                    <p><strong>NAME:</strong><span style="font-style: underline"> NURULFITRAH BINTI NOORHALIM</span></p><br>
 
                     <!-- / main body -->
                     <div class="clear"></div>
@@ -66,123 +73,107 @@ Licence URI: http://www.os-templates.com/template-terms
             <div class="rounded">
                 <main class="container clear" > 
                     <div class="scrollable">
-                        <div class="one_half first">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="2">BASIC</th>
+                                        <th colspan="2">SPM/SPMV INFORMATION</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Identification Card</strong></td>
-                                        <td>930228015948</td>
+                                        <td><strong>Figures Turn</strong></td>
+                                        <td>JJ021A031</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Races</strong></td>
-                                        <td>Malay</td>
+                                        <td><strong>Course</strong></td>
+                                        <td>SAINS</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Sex</strong></td>
-                                        <td>Female</td>
+                                        <td><strong>Year</strong></td>
+                                        <td>2010</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Religious</strong></td>
-                                        <td>Islam</td>
+                                        <td><strong>Certificate</strong></td>
+                                        <td>SPM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>School Type</strong></td>
+                                        <td>DAILY SCHOOL</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>School Name</strong></td>
+                                        <td>SMK KELAPA SAWIT</td>
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
-                    </div>
-                    <div class="scrollable">
-                        <div class="one_half">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th colspan="2">NATIONHOOD</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Nationality</strong></td>
-                                        <td>MALAYSIA</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Country</strong></td>
-                                        <td>MALAYSIA</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Birth State</strong></td>
-                                        <td>JOHOR</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Current State</strong></td>
-                                        <td>JOHOR</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
                     </div>
                     <br>
-                   <div class="scrollable">
-                        <div class="one_half first">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th colspan="2">OTHERS</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Classification</strong></td>
-                                        <td>MATRICULATION</td>
-                                    </tr>                                 
-                                    <tr>
-                                        <td><strong>Phone Number</strong></td>
-                                        <td>0147730963</td>
-                                    </tr>                                    
-                                    <tr>
-                                        <td><strong>Email</strong></td>
-                                        <td>feat.nyap@gmail.com</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                     <div class="scrollable">
-                        <div class="one_half">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th colspan="4">DATE</th>
+                                        <th colspan="3">SPM/SPMV SUBJECT</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Birth Date</strong></td>
-                                        <td>28-FEB-1993</td>
-                                        <td><strong>Marriage Status</strong></td>
-                                        <td>SINGLE</td>
+                                        <td><strong>Subject Code</strong></td>
+                                        <td><strong>Subject Name</strong></td>
+                                        <td><strong>Grade</strong></td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Date In</strong></td>
-                                        <td>2-SEP-2012</td>
-                                        <td><strong>Marriage Date</strong></td>
-                                        <td>NO</td>
+                                        <td>0008</td>
+                                        <td>ENGLISH</td>
+                                        <td>A</td>
                                     </tr>
                                     <tr>
-                                        <td><strong></strong></td>
-                                        <td></td>
-                                        <td><strong></strong></td>
-                                        <td></td>
+                                        <td>0010</td>
+                                        <td>BAHASA MELAYU</td>
+                                        <td>A+</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0016</td>
+                                        <td>BIOLOGY</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0020</td>
+                                        <td>PHYSIC</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0034</td>
+                                        <td>CHEMISTRY</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0046</td>
+                                        <td>MATHEMATICS</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0047</td>
+                                        <td>ADDITIONAL MATHEMATICS</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0055</td>
+                                        <td>PENDIDIKAN ISLAM</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0056</td>
+                                        <td>EDUCATIONAL ARTS</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0077</td>
+                                        <td>HISTORY</td>
+                                        <td>A</td>
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
-                    </div>
-                    <br>
-                    
-                    
+                        </div>         
                 </main>
             </div>
         </div>
@@ -202,3 +193,4 @@ Licence URI: http://www.os-templates.com/template-terms
         <script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
     </body>
 </html>
+
