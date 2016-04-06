@@ -36,18 +36,18 @@ Licence URI: http://www.os-templates.com/template-terms
                     <ul class="clear">
                         <li class="drop"><a href="#">Surveillance Records</a>
                             <ul>
-                                <li><a href="../student/personal-record.html">Personal Record</a></li>
-                                <li><a href="../student/address.html">Address</a></li>
-                                <li><a href="../student/guardian.html" class="active">Guardian</a></li>
-                                <li><a href="../student/spm.html">SPM</a></li>
-                                <li><a href="../student/advisor.html">Academic Advisor</a></li>
-                                <li><a href="../student/semester.html">Semester</a></li>
+                                <li><a href="../student/personal-record.jsp">Personal Record</a></li>
+                                <li><a href="../student/address.jsp">Address</a></li>
+                                <li><a href="../student/guardian.jsp" class="active">Guardian</a></li>
+                                <li><a href="../student/spm.jsp">SPM</a></li>
+                                <li><a href="../student/advisor.jsp">Academic Advisor</a></li>
+                                <li><a href="../student/semester.jsp">Semester</a></li>
                             </ul>
                         </li>
                         <li><a class="drop" href="#">Examination</a>
                             <ul>
-                                <li><a href="../student/reg-slip.html">Registration Slip</a></li>
-                                <li><a href="../student/results.html">Examination Results</a></li>
+                                <li><a href="../student/reg-slip.jsp">Registration Slip</a></li>
+                                <li><a href="../student/results.jsp">Examination Results</a></li>
                             </ul>
                         </li>
                     </ul>
