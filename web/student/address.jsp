@@ -38,8 +38,6 @@ Licence URI: http://www.os-templates.com/template-terms
                             <ul>
                                 <li><a href="../student/personal-record.jsp">Personal Record</a></li>
                                 <li><a href="../student/address.jsp" class="active">Address</a></li>
-                                <li><a href="../student/guardian.jsp">Guardian</a></li>
-                                <li><a href="../student/spm.jsp">SPM</a></li>
                                 <li><a href="../student/advisor.jsp">Academic Advisor</a></li>
                                 <li><a href="../student/semester.jsp">Semester</a></li>
                             </ul>
